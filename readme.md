@@ -58,5 +58,5 @@
 # Cài đặt redis
         # https://github.com/microsoftarchive/redis/releases
 
-# Cài đặt npx
+# Cài đặt npx, mở cmd và gõ lệnh sau:
         # npm i -g npx
