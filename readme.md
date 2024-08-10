@@ -47,15 +47,16 @@
         ## Enterprise-Only Options:
 
         #auditLog:
-# mở cmd và cd vào thư mục bin của mongo. Sau đó gõ lệnh: mongosh
-# rs.initiate()
-# set root user db.createUser({ user: "root", pwd: "123", roles: [ { role: "root", db: "admin" } ] })
-# --------------- db.grantRolesToUser( "root",[{ db: "main_win_icafe" }])
+# mở cmd và cd vào thư mục bin của mongo. Sau đó gõ lệnh: 
+        # mongosh
+        # rs.initiate()
+        # set root user db.createUser({ user: "root", pwd: "123", roles: [ { role: "root", db: "admin" } ] })
+        # db.grantRolesToUser( "root",[{ db: "main_win_icafe" }])
 
 
 
 # Cài đặt redis
-# https://github.com/microsoftarchive/redis/releases
+        # https://github.com/microsoftarchive/redis/releases
 
 # Cài đặt npx
-# npm i -g npx
+        # npm i -g npx
